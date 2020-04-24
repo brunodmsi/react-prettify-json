@@ -25,7 +25,7 @@ const PrettyJSON: React.FC<PrettyJSONProps> = ({ jsonObject, colors }) => {
       const val = '<span class=json-value>';
       const str = '<span class=json-string>';
       let r = pIndent || '';
-      if (pKey) r = `${r + key + pKey}</span>: `;
+      if (pKey) r = `${r + key + pKey}</span> `;
       // .replace(/[": ]/g, '')
       if (pVal) r = `${r + (pVal[0] === '"' ? str : val) + pVal}</span>`;
 
