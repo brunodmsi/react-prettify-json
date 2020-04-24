@@ -1,0 +1,25 @@
+{
+  "name": "react-prettify-json",
+  "version": "1.0.0",
+  "description": "Simple React Component for displaying data in a pretty way",
+  "main": "lib/index.js",
+  "types": "lib",
+  "repository": "https://github.com/brunodmsi/react-prettify-json",
+  "author": "Bruno De Masi",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "private": false,
+  "peerDependencies": {
+    "styled-components": ">=5.1.0",
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.8.3"
+  }
+}
