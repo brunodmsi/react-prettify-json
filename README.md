@@ -30,6 +30,22 @@ const Example: React.FC = () =>  {
   )
 }
 ```
+You can use that above and you're done. But, if you want a little more customization, you can set your own colors
+```tsx
+  <PrettyJSON 
+    jsonObject={jsonObject}
+    colors={{
+      punctuation: '#fff',
+      key: '#a3fff3',
+      value: '#49cabe',
+      string: '#49caeb',
+    }}
+  />
+```
+And achieve a result like this (photo took directly from my [portfolio](https://demasi.dev))    
+    
+![Pretty JSON Screenshot](.github/example.png)
+
 
 ## API
 ### Props
