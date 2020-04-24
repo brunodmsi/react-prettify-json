@@ -34,8 +34,10 @@ const Example: React.FC = () =>  {
 ## API
 ### Props
 If a prop is **Required**, the `default` field will appear empty.
-name | type | default 
---- | --- | --- 
+name | type | description | default 
+--- | --- | --- | ---
+jsonObject | json object (pls) | The json object that you want styled | --
+colors | object: punctuation, key, value, string | Each color variable corresponds to each one of JSON data types | everything **black**
 
 
 ## License
